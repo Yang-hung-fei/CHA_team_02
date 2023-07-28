@@ -13,7 +13,7 @@ public class Hello extends HttpServlet {
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
-		System.out.println("挖拎壩八啦 挖家係林爸爸拉");
+		System.out.println("挖拎壩八啦     挖家係林爸爸拉");
 		out.println("Hello from Servlet");
 	}
 
